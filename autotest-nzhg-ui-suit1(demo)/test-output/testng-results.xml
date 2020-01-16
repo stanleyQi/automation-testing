@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="39848" started-at="2020-01-16T16:35:13 NZDT" finished-at="2020-01-16T16:35:53 NZDT">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="39848" started-at="2020-01-16T16:35:13 NZDT" finished-at="2020-01-16T16:35:53 NZDT">
+      <class name="com.liqi.nzhgtest.journeytest.JourneyTest1">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="beforeTest" is-config="true" duration-ms="11859" started-at="2020-01-16T16:35:13 NZDT" finished-at="2020-01-16T16:35:25 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethode()[pri:0, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="beforeMethode" is-config="true" duration-ms="1" started-at="2020-01-16T16:35:25 NZDT" finished-at="2020-01-16T16:35:25 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethode -->
+        <test-method status="PASS" signature="isLoginLinkExisting()[pri:0, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="isLoginLinkExisting" duration-ms="581" started-at="2020-01-16T16:35:25 NZDT" finished-at="2020-01-16T16:35:26 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isLoginLinkExisting -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-16T16:35:26 NZDT" finished-at="2020-01-16T16:35:26 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="isLoginPageDisplayed()[pri:1, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="isLoginPageDisplayed" duration-ms="1053" started-at="2020-01-16T16:35:26 NZDT" finished-at="2020-01-16T16:35:27 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isLoginPageDisplayed -->
+        <test-method status="PASS" signature="beforeMethode()[pri:0, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="beforeMethode" is-config="true" duration-ms="0" started-at="2020-01-16T16:35:26 NZDT" finished-at="2020-01-16T16:35:26 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethode -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-16T16:35:27 NZDT" finished-at="2020-01-16T16:35:27 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethode()[pri:0, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="beforeMethode" is-config="true" duration-ms="0" started-at="2020-01-16T16:35:27 NZDT" finished-at="2020-01-16T16:35:27 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethode -->
+        <test-method status="PASS" signature="isProductListPageDisplayed()[pri:2, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="isProductListPageDisplayed" duration-ms="4307" started-at="2020-01-16T16:35:27 NZDT" finished-at="2020-01-16T16:35:31 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isProductListPageDisplayed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-16T16:35:31 NZDT" finished-at="2020-01-16T16:35:31 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethode()[pri:0, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="beforeMethode" is-config="true" duration-ms="1" started-at="2020-01-16T16:35:31 NZDT" finished-at="2020-01-16T16:35:31 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethode -->
+        <test-method status="PASS" signature="isProductDetailPageDisplayed()[pri:3, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="isProductDetailPageDisplayed" duration-ms="4291" started-at="2020-01-16T16:35:31 NZDT" finished-at="2020-01-16T16:35:35 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isProductDetailPageDisplayed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-16T16:35:35 NZDT" finished-at="2020-01-16T16:35:35 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethode()[pri:0, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="beforeMethode" is-config="true" duration-ms="0" started-at="2020-01-16T16:35:35 NZDT" finished-at="2020-01-16T16:35:35 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethode -->
+        <test-method status="PASS" signature="isCartDisplayed()[pri:4, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="isCartDisplayed" duration-ms="6535" started-at="2020-01-16T16:35:35 NZDT" finished-at="2020-01-16T16:35:42 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCartDisplayed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-16T16:35:42 NZDT" finished-at="2020-01-16T16:35:42 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethode()[pri:0, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="beforeMethode" is-config="true" duration-ms="0" started-at="2020-01-16T16:35:42 NZDT" finished-at="2020-01-16T16:35:42 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethode -->
+        <test-method status="PASS" signature="isCheckoutDisplayed()[pri:5, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="isCheckoutDisplayed" duration-ms="11177" started-at="2020-01-16T16:35:42 NZDT" finished-at="2020-01-16T16:35:53 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isCheckoutDisplayed -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-16T16:35:53 NZDT" finished-at="2020-01-16T16:35:53 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="isPaymentPageDisplayed()[pri:6, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="isPaymentPageDisplayed" duration-ms="8" started-at="2020-01-16T16:35:53 NZDT" finished-at="2020-01-16T16:35:53 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isPaymentPageDisplayed -->
+        <test-method status="PASS" signature="beforeMethode()[pri:0, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="beforeMethode" is-config="true" duration-ms="0" started-at="2020-01-16T16:35:53 NZDT" finished-at="2020-01-16T16:35:53 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethode -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-16T16:35:53 NZDT" finished-at="2020-01-16T16:35:53 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.liqi.nzhgtest.journeytest.JourneyTest1@2a18f23c]" name="terminateBrowser" is-config="true" duration-ms="1" started-at="2020-01-16T16:35:53 NZDT" finished-at="2020-01-16T16:35:53 NZDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.liqi.nzhgtest.journeytest.JourneyTest1 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
