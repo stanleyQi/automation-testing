@@ -7,8 +7,6 @@
 	购物车item数量Api
 	店铺信息Api
 
-
-
 TestSuit（collection） and TestCase
 	nzhg-user-login
 	nzhg-product-getCartCount
