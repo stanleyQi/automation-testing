@@ -1,5 +1,5 @@
 ﻿目的
-	Api的自动化测试演示（在没有Api设计文档和相关信息的情况下）
+	Api的测试演示（在没有Api设计文档和相关信息的情况下）
 
 对象
 	www.nzhg.co.nz 登录按钮按下，调用的以下Api:
@@ -16,7 +16,7 @@ TestSuit（collection） and TestCase
 	功能性及初级性能
 	
 测试方法
-	方法： Postman api自动化测试
+	方法： Postman api测试
 （例）
 测试运行及报告
 	方法 下载postman->导入nzhg.postman_collection.json文件->执行->输出报告
