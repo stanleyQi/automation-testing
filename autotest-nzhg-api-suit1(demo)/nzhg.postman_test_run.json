@@ -1,0 +1,218 @@
+{
+	"id": "d819d564-5593-4c58-bd76-483f5446c5f3",
+	"name": "nzhg",
+	"allTests": [],
+	"timestamp": "2020-01-17T02:42:02.899Z",
+	"collection_id": "bd4b25b2-586f-495a-b022-ce37bf1f4874",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "bd4b25b2-586f-495a-b022-ce37bf1f4874",
+		"name": "nzhg",
+		"order": [
+			"c840c39b-a728-4c0d-9015-543740604ccc",
+			"6d518ccf-f273-4647-b1cf-12b8bdfe89fd",
+			"373e7850-65cc-4a76-ac50-e2a31ba85d4c"
+		],
+		"folders_order": [],
+		"isFavorite": false
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "nzhg-user-login",
+			"id": "c840c39b-a728-4c0d-9015-543740604ccc",
+			"url": "https://www.nzhg.co.nz/user/handleLogin",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Response status is successful.": true,
+				"Response time is less than 2000ms": true,
+				"Response json should contain sessionId, data and code section.": true
+			},
+			"testPassFailCounts": {
+				"Response status is successful.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response json should contain sessionId, data and code section.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"251"
+			],
+			"allTests": [
+				{
+					"Response status is successful.": true,
+					"Response time is less than 2000ms": true,
+					"Response json should contain sessionId, data and code section.": true
+				}
+			],
+			"time": "251",
+			"totalRequestTime": "251",
+			"iterationResults": {}
+		},
+		{
+			"name": "nzhg-search-getAllShop",
+			"id": "6d518ccf-f273-4647-b1cf-12b8bdfe89fd",
+			"url": "https://www.nzhg.co.nz/search/getAllShop",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Response json should contain code and data section.": true
+			},
+			"testPassFailCounts": {
+				"Response json should contain code and data section.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"74"
+			],
+			"allTests": [
+				{
+					"Response json should contain code and data section.": true
+				}
+			],
+			"time": "74",
+			"totalRequestTime": "74",
+			"iterationResults": {}
+		},
+		{
+			"name": "nzhg-product-getCartCount",
+			"id": "373e7850-65cc-4a76-ac50-e2a31ba85d4c",
+			"url": "https://www.nzhg.co.nz/product/getCartCount",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"Response json should contain code and data section.": true
+			},
+			"testPassFailCounts": {
+				"Response json should contain code and data section.": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"73"
+			],
+			"allTests": [
+				{
+					"Response json should contain code and data section.": true
+				}
+			],
+			"time": "73",
+			"totalRequestTime": "73",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 5,
+	"totalFail": 0,
+	"totalTime": 398,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "nzhg-user-login",
+			"id": "c840c39b-a728-4c0d-9015-543740604ccc",
+			"url": "https://www.nzhg.co.nz/user/handleLogin",
+			"time": "2020-01-17T02:42:02.899Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Response status is successful.": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 2000ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response json should contain sessionId, data and code section.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "nzhg-search-getAllShop",
+			"id": "6d518ccf-f273-4647-b1cf-12b8bdfe89fd",
+			"url": "https://www.nzhg.co.nz/search/getAllShop",
+			"time": "2020-01-17T02:42:02.899Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Response json should contain code and data section.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "nzhg-product-getCartCount",
+			"id": "373e7850-65cc-4a76-ac50-e2a31ba85d4c",
+			"url": "https://www.nzhg.co.nz/product/getCartCount",
+			"time": "2020-01-17T02:42:02.899Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"Response json should contain code and data section.": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		}
+	],
+	"synced": false
+}

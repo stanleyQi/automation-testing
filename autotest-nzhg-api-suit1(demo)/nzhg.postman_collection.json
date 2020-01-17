@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "bd4b25b2-586f-495a-b022-ce37bf1f4874",
+		"name": "nzhg",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "nzhg-user-login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "093cac13-6a52-49e6-9135-67263708b848",
+						"exec": [
+							"pm.test(\"Response status is successful.\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"pm.test(\"Response time is less than 2000ms\", function () {",
+							"    pm.expect(pm.response.responseTime).to.be.below(2000);",
+							"});",
+							"",
+							"pm.test(\"Response json should contain sessionId, data and code section.\", function () {",
+							"    pm.expect(pm.response.json()).to.have.all.keys('sessionId', 'data','code');",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "accountVal",
+							"value": "0224079642",
+							"type": "text"
+						},
+						{
+							"key": "passwordVal",
+							"value": "oraclepro9",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://www.nzhg.co.nz/user/handleLogin",
+					"protocol": "https",
+					"host": [
+						"www",
+						"nzhg",
+						"co",
+						"nz"
+					],
+					"path": [
+						"user",
+						"handleLogin"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "nzhg-search-getAllShop",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "493da7cd-71cd-41d1-8ce2-82cb0533e694",
+						"exec": [
+							"pm.test(\"Response json should contain code and data section.\", function () {",
+							"    pm.expect(pm.response.json()).to.have.all.keys('data','code');",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.nzhg.co.nz/search/getAllShop",
+					"protocol": "https",
+					"host": [
+						"www",
+						"nzhg",
+						"co",
+						"nz"
+					],
+					"path": [
+						"search",
+						"getAllShop"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "nzhg-product-getCartCount",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "06978113-64ab-44c8-a299-ff771e2a3e1a",
+						"exec": [
+							"pm.test(\"Response json should contain code and data section.\", function () {",
+							"    pm.expect(pm.response.json()).to.have.all.keys('data','code');",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.nzhg.co.nz/product/getCartCount",
+					"protocol": "https",
+					"host": [
+						"www",
+						"nzhg",
+						"co",
+						"nz"
+					],
+					"path": [
+						"product",
+						"getCartCount"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
